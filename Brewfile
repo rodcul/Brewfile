@@ -24,7 +24,7 @@ brew "bmon"
 brew "fontconfig"
 brew "gettext"
 brew "cairo"
-brew "chromedriver", link: false
+brew "chromedriver"
 brew "influxdb"
 brew "chronograf"
 brew "colordiff"
