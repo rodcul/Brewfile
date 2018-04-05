@@ -27,7 +27,7 @@ brew "bmon"
 brew "fontconfig"
 brew "gettext"
 brew "cairo"
-brew "chromedriver"
+brew "chromedriver", link: false
 brew "influxdb"
 brew "chronograf"
 brew "colordiff"
@@ -77,7 +77,6 @@ brew "parallel"
 brew "phantomjs"
 brew "phantomjs@1.92"
 brew "php-cs-fixer"
-brew "unixodbc"
 brew "pkg-config"
 brew "qemu"
 brew "qt"
@@ -170,26 +169,18 @@ cask "wineskin-winery"
 cask "wireshark-chmodbpf"
 cask "zoomus"
 cask "caskroom/versions/firefox-developer-edition"
-mas "Annotate", id: 918207447
 mas "AudioBookBinder", id: 413969927
 mas "Be Focused Pro", id: 961632517
 mas "Coin Tick", id: 1141688067
 mas "DaisyDisk", id: 411643860
-mas "Harvest", id: 506189836
 mas "iMovie", id: 408981434
-mas "IMSeyePro", id: 792666329
 mas "IP Scanner", id: 404167149
 mas "IP Scanner Home", id: 422293948
 mas "Keynote", id: 409183694
-mas "KWeye", id: 481970514
-mas "MEye", id: 481970082
 mas "Momentum", id: 1030442215
 mas "Numbers", id: 409203825
 mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
-mas "vMEye", id: 481969379
-mas "vMEyeSuper", id: 553750009
 mas "Wunderlist", id: 410628904
 mas "Xcode", id: 497799835
-mas "XGuard", id: 496801973
